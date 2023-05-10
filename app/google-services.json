@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785497650324",
+    "firebase_url": "https://inventory-a1b50-default-rtdb.firebaseio.com",
+    "project_id": "inventory-a1b50",
+    "storage_bucket": "inventory-a1b50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785497650324:android:4f7762626e696e2db3b081",
+        "android_client_info": {
+          "package_name": "com.example.admin.augscan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785497650324-g5cp14gd5o4hjk788vldmfi76f7663ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.augscan",
+            "certificate_hash": "90d611ba067a0afff9ff7ae744030aaa9eca8843"
+          }
+        },
+        {
+          "client_id": "785497650324-5ktducqaf94bons8ujdr7i705s5bg957.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOqhpEbvBPbn-DI7pGhfobfvjMzP7bXJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785497650324-5ktducqaf94bons8ujdr7i705s5bg957.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

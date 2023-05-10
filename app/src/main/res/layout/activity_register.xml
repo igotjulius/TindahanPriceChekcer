@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/mbg">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="257dp"
+        android:layout_height="232dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="-70dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_account_user"
+        android:ems="10"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#4DFFFFFF"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="-118dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_account_user"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHint="#4DFFFFFF"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#4DFFFFFF" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/passwordRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="-51dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColor="#fff"
+        android:textColorHint="#4DFFFFFF" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/confirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-63dp"
+        android:background="#545454"
+        android:text="Sign Up"
+        android:textColor="#FFFF"
+        android:textSize="18dp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>
